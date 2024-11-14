@@ -24,11 +24,11 @@ body {
     display: flex;
     align-items: center;
     background: linear-gradient(45deg, #fcfce1, #f5fbfb);
-    padding: 2.3rem 0;
+    padding: 5rem 0;
 
 }
 #Section4 .top .left img{
-    width: 28vw;
+    width: 40vw;
     float: right;
     padding-right: 3rem;
 }
@@ -40,7 +40,7 @@ body {
     padding-left: 3rem;
 }
 #Section4 .top .right p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     opacity: 70%;
     font-weight: 700;
 }
@@ -51,7 +51,7 @@ body {
     margin-bottom: 1.5rem;
 }
 #Section4 .top .right h3{
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     line-height: 1.1;
     font-weight: 300;
@@ -75,31 +75,31 @@ body {
 }
 #Section4 .bottom{
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 6rem;
 }
 #Section4 .bottom .text{
     background-color: #042348;
     border-radius: 3rem;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     /* padding-left: 3.5rem;
     padding-top: 3rem;
     padding-bottom: 3rem; */
     padding: 3rem 0 3rem 3.5rem;
     background-image: url(./Assets/sec4\(2\).png);
-    background-size: ;
+    
     
 }
 #Section4 .bottom .text h1{
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3rem;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+    font-weight: 700;
+    margin-bottom: 0.7rem;
 }
 #Section4 .bottom .text h4{
     color: white;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 300;
     margin-bottom: 2rem;
 }
@@ -124,5 +124,98 @@ body {
     cursor: pointer;
     padding-left: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+    #Section4 .top {
+        flex-direction: column; 
+        padding: 1.5rem 0;
+    }
+    
+    #Section4 .top .left img {
+        width: 80vw; 
+        float: none; 
+        padding-right: 0;
+        margin: 0 auto; 
+    }
+    
+    #Section4 .top .right {
+        padding-left: 0;
+        text-align: left; 
+        margin-top: 2rem;
+    }
+    
+    #Section4 .top .right h1 {
+        font-size: 2.5rem; 
+    }
+    
+    #Section4 .top .right p {
+        font-size: 0.9rem; 
+        opacity: 100%;
+    }
+
+    #Section4 .bottom .text {
+        width: 90%; 
+        padding: 2rem 2rem 2rem 2.5rem; 
+    }
+
+    #Section4 .bottom .text h1 {
+        font-size: 2rem; 
+    }
+
+    #Section4 .bottom .text h4 {
+        font-size: 0.7rem; 
+    }
+
+    #Section4 .bottom .text .install {
+        font-size: 0.8rem; 
+    }
+
+    #Section4 .bottom .text .read {
+        font-size: 0.7rem; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    #Section4 .top .left img {
+        width: 90vw; 
+    }
+    
+    #Section4 .top .right {
+        padding-left: 0;
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+
+    #Section4 .top .right h1 {
+        font-size: 2rem; 
+    }
+
+    #Section4 .top .right p {
+        font-size: 0.8rem; 
+    }
+
+    #Section4 .bottom .text {
+        width: 95%; 
+        padding: 2rem 1.5rem; 
+    }
+
+    #Section4 .bottom .text h1 {
+        font-size: 1.8rem; 
+    }
+
+    #Section4 .bottom .text h4 {
+        font-size: 0.6rem; 
+    }
+
+    #Section4 .bottom .text .install {
+        font-size: 0.7rem; 
+    }
+
+    #Section4 .bottom .text .read {
+        font-size: 0.6rem; 
+    }
+}
+
 
 /* Aditya  */
