@@ -10,3 +10,72 @@ body {
     width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+/* Aditya  */
+#Section4{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+
+}
+#Section4 .top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(45deg, #fcfce1, #f5fbfb);
+    padding: 2.3rem 0;
+
+}
+#Section4 .top .left img{
+    width: 28vw;
+    float: right;
+    padding-right: 3rem;
+}
+#Section4 .top .left{
+    flex-basis: 50%;
+}
+#Section4 .top .right{
+    flex-basis: 50%;
+    padding-left: 3rem;
+}
+#Section4 .top .right p{
+    font-size: 0.8rem;
+    opacity: 70%;
+    font-weight: 700;
+}
+#Section4 .top .right h1{
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+#Section4 .top .right h3{
+    font-size: 0.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.1;
+    font-weight: 300;
+    margin-bottom: 1rem ;
+    opacity: 70%;
+}
+#Section4 .top .right .button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #55a2f5;
+    border: none;
+    border-radius: 25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+#Section4 .top .right .button:hover{
+    background-color: #0080ff;
+}
+#Section4 .bottom{
+    width: 100%;
+}
+
+
+/* Aditya  */
