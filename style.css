@@ -1,12 +1,167 @@
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
 html,
 body {
-    height: 100%;
-    width: 100%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  height: 100%;
+  width: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
+
+/* Sambhav */
+#Section2 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+/* Part 1 styling */
+#part1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#part1 .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 370px;
+  padding: 25px;
+  margin-top: 32px;
+  border-top: 4px solid #e8eaed;
+  border-radius: 2px;
+}
+
+#part1 .card h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+#part1 .card p {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+#part1 .card img {
+  width: 100%;
+  height: auto;
+}
+
+/* Part 2 styling */
+#part2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 32px;
+}
+
+#text {
+  width: 100%;
+  max-width: 600px;
+  text-align: left;
+}
+
+#hGroup h4 {
+  font-size: 18px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #4a4a4a;
+}
+
+#hGroup h3 {
+  font-size: 36px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+#text p {
+  margin-bottom: 24px;
+  color: #4a4a4a;
+  font-size: 18px;
+}
+
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid royalblue;
+  border-radius: 30px;
+  color: royalblue;
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+#btn:hover {
+  background-color: royalblue;
+  color: white;
+}
+
+#btnQuite {
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+#media {
+  width: 100%;
+  max-width: 472px;
+  text-align: center;
+}
+
+#media img {
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  #part1,
+  #part2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #text {
+    text-align: center;
+  }
+
+  #hGroup h3 {
+    font-size: 28px;
+  }
+
+  #text p,
+  #part1 .card p {
+    font-size: 16px;
+  }
+
+  #btn,
+  #btnQuite {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  #hGroup h3 {
+    font-size: 24px;
+  }
+
+  #btn,
+  #btnQuite {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+/* Sambhav */
