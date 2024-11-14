@@ -61,8 +61,8 @@ body {
 #Section4 .top .right .button{
     display: inline-block;
     margin-top: 20px;
-    padding: 10px 25px;
-    font-size: 16px;
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
     color: white;
     background-color: #55a2f5;
     border: none;
@@ -75,6 +75,54 @@ body {
 }
 #Section4 .bottom{
     width: 100%;
+    margin-top: 3rem;
+}
+#Section4 .bottom .text{
+    background-color: #042348;
+    border-radius: 3rem;
+    width: 60%;
+    margin: 0 auto;
+    /* padding-left: 3.5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem; */
+    padding: 3rem 0 3rem 3.5rem;
+    background-image: url(./Assets/sec4\(2\).png);
+    background-size: ;
+    
+}
+#Section4 .bottom .text h1{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+#Section4 .bottom .text h4{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+#Section4 .bottom .text .install{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0.6rem 2rem;
+    font-size: 0.8rem;
+    color: rgba(35, 140, 253, 0.903);
+    background-color: #ffffff;
+    border: none;
+    border-radius: 25rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+#Section4 .bottom .text .read{
+    color: white;
+    background: none;
+    background-color: transparent; 
+    border: none; 
+    outline: none; 
+    cursor: pointer;
+    padding-left: 0.5rem;
 }
 
 
